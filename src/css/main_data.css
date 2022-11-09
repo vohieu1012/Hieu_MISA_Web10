@@ -1,0 +1,164 @@
+.maincontent {
+    padding: 16px 16px;
+    height: calc(100vh - 48px);
+    overflow: hidden;
+}
+.maincontent--top {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: calc(100% - 252px);
+}
+.maincontent--top .maincontent--top__search {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.maincontent--top .maincontent--top__search input {
+    height: 32px;
+    width: 330px;
+    font-size: 13px;
+    padding-left: 8px;
+    border: 1px solid #cecece;
+    border-radius: 4px;
+}
+.maincontent--top .maincontent--top__search input:focus {
+    outline: none;
+    border-radius: 2px solid;
+}
+.maincontent--top .maincontent--top__search .search--icon {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    height: 32px;
+    margin-left: 330px;
+}
+.maincontent--top .maincontent--top__search .search--icon img {
+    right: 15px;
+    position: absolute;
+    float: right;
+    right: 8px;
+}
+.maincontent--top .maincontent--top__search .search--icon::after {
+    content: "";
+    background-color: #eaecef;
+    height: 22px;
+    width: 1px;
+    right: 38px;
+    position: absolute;
+}
+.maincontent--top .maincontent--top__manage {
+    display: flex;
+    align-items: flex-start;
+}
+
+.maincontent--top .maincontent--top__manage:last-child {
+    margin-left: 18px;
+}
+/* .maincontent--top .maincontent--top__manage .add {
+    background-color: #03ae66;
+    border-color: #03ae66;
+    
+} */
+.maincontent--top .maincontent--top__manage .export {
+    color: #a6a6a6;
+    background-color: #ffffff;
+
+    border-color: #cecece;
+    margin: 0px 8px;
+}
+/* .maincontent--top .maincontent--top__manage .add:hover {
+    background-color: #02bf70;
+    color: #ffffff;
+} */
+.maincontent--top .maincontent--top__manage img {
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    height: 32px;
+}
+.maincontent--table {
+    margin-top: 48px;
+    width: 100%;
+    height: calc(100% - 86px);
+    overflow: scroll;
+}
+.maincontent--table table {
+    width: 100%;
+    border-collapse: collapse;
+
+    /* position: fixed; */
+}
+
+.maincontent--table table thead th {
+    background-color: #eaecef;
+    border: 1px solid #cecece;
+    height: 40px;
+    font-size: 13px;
+    position: sticky;
+    top: 0;
+    /* z-index: 1; */
+}
+.maincontent--table table tr td {
+    border: 1px solid #cecece;
+    height: 40px;
+    font-size: 13px;
+    background-color: #ffffff;
+    text-align: center;
+}
+/* .maincontent--table table .table--number {
+    padding: 0;
+    text-align: center;
+} */
+.maincontent--table table td:first-child {
+    border-left: none;
+    border-right: none;
+}
+.maincontent--table table th:first-child {
+    border-left: none;
+    border-right: none;
+}
+.maincontent--table table th:last-child {
+    border-left: none;
+    border-right: none;
+}
+.maincontent--table table td:last-child {
+    border-left: none;
+    border-right: none;
+}
+.maincontent--table table tr input {
+    margin: 0px 8px;
+}
+.maincontent--table .wrap--manage {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.maincontent--table .wrap--manage .manage--edit {
+    float: left;
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+}
+.maincontent--table .wrap--manage .manage--edit img {
+    width: 100%;
+    height: 100%;
+}
+.maincontent--table .wrap--manage .manage--delete {
+    float: left;
+    width: 18px;
+    height: 18px;
+}
+.maincontent--table .wrap--manage .manage--delete img {
+    width: 100%;
+    height: 100%;
+}
+/* .maincontent--table table tr:first-child {
+    position: fixed;
+    height: 40px;
+}
+.maincontent--table table tr:first-child th {
+    text-align: center; */
+/* padding: 0px 20px;
+    padding-left: 21px;
+    padding-right: 21px;
+} */

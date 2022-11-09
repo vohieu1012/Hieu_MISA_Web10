@@ -1,0 +1,20 @@
+@font-face {
+    font-family: hieuFont;
+    src: url("../assets/Fonts/OpenSans-Regular.woff");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: hieuFont;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: 100vh;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}

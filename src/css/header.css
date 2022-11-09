@@ -1,0 +1,47 @@
+.wrap {
+    width: calc(100% - 220px);
+    height: 100%;
+}
+.wrap .header {
+    height: 48px;
+    width: 100%;
+    padding: 0px 16px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    display: flex;
+    justify-content: space-between;
+}
+.wrap .header .header--left {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+.wrap .header .header--left .header--left__para p {
+    font-size: 16px;
+    margin-right: 16px;
+}
+.wrap .header .header--left .header--left__icon {
+    transform: translateY(10%);
+}
+.wrap .header .header--right {
+    display: flex;
+    align-items: center;
+}
+.wrap .header .header--right .header--right__space {
+    width: 1px;
+    background-color: #eaecef;
+    height: 28px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.wrap .header .header--right .header--right__account {
+    display: flex;
+    align-items: center;
+}
+.wrap .header .header--right .header--right__account p {
+    font-size: 14px;
+    margin-right: 8px;
+}
+.wrap .header .header--right .account--option img {
+    transform: translateY(10%);
+    margin-right: 8px;
+}
